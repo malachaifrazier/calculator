@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require './lib/calculator'
+
+cal = Calculator::CLI.new
+cal.begin
